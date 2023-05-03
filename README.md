@@ -2,6 +2,9 @@ A Basic CPS Manager Fully customize-able
 - [x] {Customizable Webhook in Config.yml}
 - [X] {Customizable Max CPS in Config.yml}
 - [X] {Customizable Permissions to get Alerts}
+- [X] {Error Support ✔️}
+
+if u got any erros, dm candle#1166
 
 Webhook example:
 
