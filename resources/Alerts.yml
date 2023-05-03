@@ -1,0 +1,18 @@
+#Alert is for people with the permission pocketmine.group.operator (/op) if u wanne change permission change permission:
+Alert: "§l§2[The Hulk]§r ==> §b{$player} §ris currently clicking: §b{cps}"
+permission: 'pocketmine.group.operator'
+
+#webhook adjustable:
+# the only things u can add are {Player} -> this gets the players name + {cps} -> gets the current cps from the player! want something to get added dm candle#1166
+webhook: "https://discord.com/api/webhooks/1097893819330084948/0PEUcsRapYvDLtSZlPTVR3dc1tcFy3UaALu7e64Ea-XzT8sDsX00jFtNY0TA5NGtTDkj"
+webhookname: "The Hulk"
+webhookfield1: 'Name of The Player'
+webhookfield1_1: '{$player}'
+webhookfield2: 'Cps:'
+webhookfield2_2: '{cps}'
+
+
+#max Cps:
+#if player goes over the 15 cps there will be a webhook send to your discord server.
+max_cps: 15
+cpspopup: 'CPS: §4{cps}'
